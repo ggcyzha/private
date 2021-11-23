@@ -1,0 +1,108 @@
+body {margin:0;}
+
+	a.one:link {display: block;color:#7F0002;font-weight: 600;text-decoration: none;}
+	a.one:visited {display: block;color:#7F0002;font-weight: 600;text-decoration: none;}
+	a.one:hover {display: block;color:#7F0002;font-weight: 600;text-decoration: none;}
+	a.one:active {display: block;color:#7F0002;font-weight: 600;text-decoration: none;}
+
+    a.two:link {display: inline;color:#000000;font-weight: 600;text-decoration: none;}
+	a.two:visited {display: inline;color:#000000;font-weight: 600;text-decoration: none;}
+	a.two:hover {display: inline;color:#000000;font-weight: 600;text-decoration: none;}
+	a.two:active {display: inline;color:#000000;font-weight: 600;text-decoration: none;}
+
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
+
+.bloc{
+  background:#00B1C0;
+  display: block;
+  color:#7F0002;font-weight: 600;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+.obje{
+	left:25%;
+	width: auto;
+}
+.jiange{
+	height:60px;
+	font-size: 25px;
+	font-weight: 500;
+	text-align: center;
+}
+.grid-container {
+  grid-column-gap: 2px;
+  grid-row-gap: 2px;
+  position: relative;
+  left: 25%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  width: 50%;
+  margin: 0px;
+  padding: 0px;
+  background-color:#04926C;
+}
+.cen{
+	position: fixed;
+	left: 25%;
+	width: 50%
+}
+.tongzhi{
+	text-align: center;
+	color: #000000;
+	font-size: 30px;
+	font-weight: 700;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  right: 25%;
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color:#E00003;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+table {
+  border-collapse: collapse;
+	width: 70%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {background-color:#f5f5f5;}
